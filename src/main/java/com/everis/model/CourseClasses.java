@@ -25,11 +25,12 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 @Builder
 @Document(collection = "courseclasses")
-@JsonPropertyOrder({"id", "fullName", "gender",
-    "dateofBirth", "typeDocument", "documentNumber"})
+@JsonPropertyOrder({"id", "idCourse", "idTeacher",
+    "startofclasses", "endofclasses", "idStudent", "idParents"})
 public class CourseClasses implements Serializable {
 
-	private static final long serialVersionUID = -7582893407136072654L;
+
+	private static final long serialVersionUID = -6185521810123494575L;
   /**
    * id.
    */

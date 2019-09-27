@@ -3,9 +3,6 @@ package com.everis.service;
 import com.everis.model.CourseClasses;
 import com.everis.repository.ReactiveRepository;
 
-import java.util.Date;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import reactor.core.publisher.Flux;
